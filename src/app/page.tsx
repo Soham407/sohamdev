@@ -8,6 +8,7 @@ import { IdealClient } from "@/components/IdealClient";
 import { Examples } from "@/components/Examples";
 import { Process } from "@/components/Process";
 import { FinalCTA } from "@/components/FinalCTA";
+import { ContactForm } from "@/components/ContactForm";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <Examples />
         <Process id="process" />
         <FinalCTA />
+        <ContactForm />
       </main>
       <Footer />
     </div>
